@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&amp;display=swap');
+      .letter{ font-family:'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif; font-weight:800; }
+    </style>
+
+    <radialGradient id="bg" gradientUnits="userSpaceOnUse" cx="164" cy="92" r="486">
+      <stop offset="0%" stop-color="#0E2230"/>
+      <stop offset="55%" stop-color="#071119"/>
+      <stop offset="100%" stop-color="#02050A"/>
+    </radialGradient>
+
+    <linearGradient id="letterGrad" gradientUnits="userSpaceOnUse" x1="120" y1="150" x2="400" y2="380">
+      <stop offset="0%" stop-color="#7FFFD1"/>
+      <stop offset="40%" stop-color="#B8FFF0"/>
+      <stop offset="90%" stop-color="#F3F7F5"/>
+    </linearGradient>
+
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="154" cy="128" r="282">
+      <stop offset="0%" stop-color="#7FFFD1" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7FFFD1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="108" fill="url(#glow)"/>
+  <rect width="512" height="512" rx="108" fill="none" stroke="rgba(127,255,209,0.14)" stroke-width="2"/>
+
+  <!-- letter -->
+  <text x="50%" y="63%" text-anchor="middle" class="letter" font-size="300" fill="url(#letterGrad)">D</text>
+
+  <!-- sounding-line mark, small accent above the letter -->
+  <circle cx="256" cy="120" r="6" fill="#7FFFD1"/>
+  <line x1="256" y1="132" x2="256" y2="168" stroke="#7FFFD1" stroke-width="2.4" stroke-dasharray="2.5 7" stroke-linecap="round" opacity="0.8"/>
+</svg>

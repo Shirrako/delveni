@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .letter{ font-family:'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif; font-weight:800; }
+    </style>
+    <linearGradient id="letterGrad" gradientUnits="userSpaceOnUse" x1="120" y1="150" x2="400" y2="380">
+      <stop offset="0%" stop-color="#7FFFD1"/>
+      <stop offset="40%" stop-color="#B8FFF0"/>
+      <stop offset="90%" stop-color="#F3F7F5"/>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="63%" text-anchor="middle" class="letter" font-size="300" fill="url(#letterGrad)">D</text>
+  <circle cx="256" cy="120" r="6" fill="#7FFFD1"/>
+  <line x1="256" y1="132" x2="256" y2="168" stroke="#7FFFD1" stroke-width="2.4" stroke-dasharray="2.5 7" stroke-linecap="round" opacity="0.8"/>
+</svg>
