@@ -93,7 +93,7 @@ const MARKUP = `
       <div class="s-fragment">
         It won't feel <span class="redact">░░░░░░</span> at first. This does not mean it isn't <span class="redact">░░░░░░░░░░</span> — to the contrary — but it takes <span class="redact">░░░░</span>, some of it.
       </div>
-      <div class="s-actions"><a class="btn-primary" id="toStep2">Continue<span class="arrow"></span></a></div>
+      <div class="s-actions"><a class="btn-primary" id="toStep2">Go on<span class="arrow"></span></a></div>
     </div>
 
     <div class="s-step" id="s2">
@@ -101,7 +101,7 @@ const MARKUP = `
       <p class="s-prime">This isn't graded on how it sounds. Answer like no one's reading it carefully — that's closer to the truth than answering like someone is.</p>
       <div class="s-question">What would it actually cost you to sit with that for a year?</div>
       <textarea class="s-textarea" id="sInput" placeholder="Write what's true, not what sounds right…"></textarea>
-      <div class="s-actions"><a class="btn-primary" id="toStep3">Submit<span class="arrow"></span></a></div>
+      <div class="s-actions"><a class="btn-primary" id="toStep3">Let it be read<span class="arrow"></span></a></div>
     </div>
 
     <div class="s-step" id="s3">

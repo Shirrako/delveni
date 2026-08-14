@@ -2,8 +2,32 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Delveni",
-  description: "Not published. Decided.",
+  metadataBase: new URL("https://delveni.com"),
+  title: "Delveni — Not Published. Decided.",
+  description:
+    "A private drop of unfiltered, hard-earned thinking — screened per piece, gone once it's read. Not a newsletter. Not for everyone.",
+  openGraph: {
+    title: "Delveni — Not Published. Decided.",
+    description:
+      "A private drop of unfiltered, hard-earned thinking — screened per piece, gone once it's read.",
+    url: "https://delveni.com",
+    siteName: "Delveni",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Delveni — Not Published. Decided.",
+    description:
+      "A private drop of unfiltered, hard-earned thinking — screened per piece, gone once it's read.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
